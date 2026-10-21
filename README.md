@@ -309,4 +309,4 @@ Supervisor: **Prof. Riccardo Guidotti** · Academic year **2022/2023**
 
 The [full thesis](REPORT.pdf) covers decision-tree foundations, Hunt's algorithm, impurity measures, the Python implementation, all three modes, experiments, conclusions, and bibliography. The original model and experimental code were developed by the author as part of this thesis.
 
-If you reference this work in a report or presentation, please credit the author and thesis title above. No `LICENSE` file is included in this repository snapshot.
+The code is released under the [MIT License](LICENSE). If you reference this work in a report or presentation, please credit the author and thesis title above.
