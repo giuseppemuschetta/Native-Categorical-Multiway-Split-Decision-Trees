@@ -15,13 +15,13 @@ A handwritten Python implementation that brings textbook decision trees to mixed
 
 **10 datasets · 3 operating modes · 2 impurity criteria · 51,840 archived evaluations**
 
-[Read the thesis](REPORT.pdf) · [Quick start](#quick-start) · [Experimental results](#experimental-results) · [Explore the code](#repository-guide)
+[Read the thesis](REPORT_EN.pdf) · [Italian original](REPORT.pdf) · [Quick start](#quick-start) · [Experimental results](#experimental-results) · [Explore the code](#repository-guide)
 
 </div>
 
 ---
 
-Original thesis title: *Implementazione Python di un Decision Tree Categorico Multi-Split*.
+Original thesis title: *Implementazione Python di un Decision Tree Categorico Multi-Split*. The full thesis is available both in the [Italian original](REPORT.pdf) and in an [English translation](REPORT_EN.pdf).
 
 ## Why this project exists
 
@@ -244,10 +244,11 @@ Preparation, training, and prediction can modify their input dataframes. The qui
 ├── Visual_mixedDT/         # 10 custom-model text trees
 ├── Visual_sklearn/         # 10 reference tree PNGs and 10 text logs
 ├── docs/images/            # Selected original thesis figures used here
-└── REPORT.pdf              # Full thesis, in Italian
+├── REPORT.pdf              # Full thesis, in Italian
+└── REPORT_EN.pdf           # Full thesis, English translation
 ```
 
-Suggested reading path: start with [`MixedDecisionTree.py`](MixedDecisionTree.py), follow the experiment runners, then inspect the saved results and Chapter 4 of the [thesis](REPORT.pdf).
+Suggested reading path: start with [`MixedDecisionTree.py`](MixedDecisionTree.py), follow the experiment runners, then inspect the saved results and Chapter 4 of the [thesis](REPORT_EN.pdf).
 
 <details>
 <summary><strong>See an exported reference tree</strong></summary>
@@ -307,6 +308,6 @@ These details make the repository a useful starting point for studying multiway 
 **Giuseppe Muschetta** · Bachelor's degree in Computer Science · **University of Pisa**  
 Supervisor: **Prof. Riccardo Guidotti** · Academic year **2022/2023**
 
-The [full thesis](REPORT.pdf) covers decision-tree foundations, Hunt's algorithm, impurity measures, the Python implementation, all three modes, experiments, conclusions, and bibliography. The original model and experimental code were developed by the author as part of this thesis.
+The [full thesis](REPORT_EN.pdf) ([Italian original](REPORT.pdf)) covers decision-tree foundations, Hunt's algorithm, impurity measures, the Python implementation, all three modes, experiments, conclusions, and bibliography. The original model and experimental code were developed by the author as part of this thesis.
 
 The code is released under the [MIT License](LICENSE). If you reference this work in a report or presentation, please credit the author and thesis title above.
