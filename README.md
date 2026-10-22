@@ -87,13 +87,13 @@ Categorical columns retain their native branching behavior in all three modes. S
 
 The thesis compares MixedDecisionTree (**MDT**) with scikit-learn (**SKL**) across ten datasets, three modes, two impurity criteria, and multiple pre-pruning settings.
 
-The following figures are **original images extracted from the thesis**. They show the `classic` comparisons under the dataset-specific configurations discussed in Chapter 4; their labels are preserved in Italian. Open either image for the full-resolution version.
+The following figures come from the [English translation of the thesis](REPORT_EN.pdf), where the original charts are redrawn from the same values. They show the `classic` comparisons under the dataset-specific configurations discussed in Chapter 4. Open either image for the full-resolution version.
 
 | Accuracy | Weighted F1-score |
 | :---: | :---: |
-| [![Original thesis chart comparing MDT and scikit-learn classic accuracy across ten datasets](docs/images/thesis-classic-accuracy.png)](docs/images/thesis-classic-accuracy.png) | [![Original thesis chart comparing MDT and scikit-learn classic weighted F1 across ten datasets](docs/images/thesis-classic-f1.png)](docs/images/thesis-classic-f1.png) |
+| [![Thesis chart comparing MDT and scikit-learn classic accuracy across ten datasets](docs/images/thesis-classic-accuracy.png)](docs/images/thesis-classic-accuracy.png) | [![Thesis chart comparing MDT and scikit-learn classic weighted F1 across ten datasets](docs/images/thesis-classic-f1.png)](docs/images/thesis-classic-f1.png) |
 
-*Source: [REPORT.pdf](REPORT.pdf), printed pages 50 and 61. MDT is blue; SKL is orange. These configuration-specific figures are distinct from the independently selected peaks below.*
+*Source: [REPORT_EN.pdf](REPORT_EN.pdf), printed pages 49 and 61 (pages 50 and 61 of the Italian [REPORT.pdf](REPORT.pdf)). MDT is blue; SKL is orange. These configuration-specific figures are distinct from the independently selected peaks below.*
 
 ### What is preserved in this repository
 
@@ -243,7 +243,7 @@ Preparation, training, and prediction can modify their input dataframes. The qui
 ├── Results/                # 20 archived experiment CSV files
 ├── Visual_mixedDT/         # 10 custom-model text trees
 ├── Visual_sklearn/         # 10 reference tree PNGs and 10 text logs
-├── docs/images/            # Selected original thesis figures used here
+├── docs/images/            # Two thesis charts used in this README
 ├── REPORT.pdf              # Full thesis, in Italian
 └── REPORT_EN.pdf           # Full thesis, English translation
 ```
